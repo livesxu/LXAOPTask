@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5636073E21468A3A00B10825 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5636073D21468A3A00B10825 /* AppDelegate.m */; };
+		5636074121468A3A00B10825 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5636074021468A3A00B10825 /* ViewController.m */; };
+		5636074421468A3A00B10825 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5636074221468A3A00B10825 /* Main.storyboard */; };
+		5636074621468A3C00B10825 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5636074521468A3C00B10825 /* Assets.xcassets */; };
+		5636074921468A3C00B10825 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5636074721468A3C00B10825 /* LaunchScreen.storyboard */; };
+		5636074C21468A3C00B10825 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5636074B21468A3C00B10825 /* main.m */; };
+		5636075621468A3C00B10825 /* LXAopTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5636075521468A3C00B10825 /* LXAopTaskTests.m */; };
+		5636076121468A3C00B10825 /* LXAopTaskUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5636076021468A3C00B10825 /* LXAopTaskUITests.m */; };
+		5636077021468B2C00B10825 /* LXAOPTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 5636076F21468B2C00B10825 /* LXAOPTask.m */; };
+		563607762146901400B10825 /* LXAOPTask+TaskTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 563607752146901400B10825 /* LXAOPTask+TaskTest.m */; };
+		563607792146908200B10825 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 563607782146908200B10825 /* NextViewController.m */; };
+		DCBB6A9DD52EE057EC9EBFF2 /* Pods_LXAopTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A869A54F56175C8125D6E1A8 /* Pods_LXAopTask.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5636075221468A3C00B10825 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5636073121468A3A00B10825 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5636073821468A3A00B10825;
+			remoteInfo = LXAopTask;
+		};
+		5636075D21468A3C00B10825 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5636073121468A3A00B10825 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5636073821468A3A00B10825;
+			remoteInfo = LXAopTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E669FFF932F9F02364714EB /* Pods-LXAopTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXAopTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LXAopTask/Pods-LXAopTask.debug.xcconfig"; sourceTree = "<group>"; };
+		4F7F8D6839938456F3F86BE8 /* Pods-LXAopTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXAopTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-LXAopTask/Pods-LXAopTask.release.xcconfig"; sourceTree = "<group>"; };
+		5636073921468A3A00B10825 /* LXAopTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXAopTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5636073C21468A3A00B10825 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5636073D21468A3A00B10825 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5636073F21468A3A00B10825 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5636074021468A3A00B10825 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5636074321468A3A00B10825 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5636074521468A3C00B10825 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5636074821468A3C00B10825 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5636074A21468A3C00B10825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5636074B21468A3C00B10825 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5636075121468A3C00B10825 /* LXAopTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXAopTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5636075521468A3C00B10825 /* LXAopTaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXAopTaskTests.m; sourceTree = "<group>"; };
+		5636075721468A3C00B10825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5636075C21468A3C00B10825 /* LXAopTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXAopTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5636076021468A3C00B10825 /* LXAopTaskUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXAopTaskUITests.m; sourceTree = "<group>"; };
+		5636076221468A3C00B10825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5636076E21468B2C00B10825 /* LXAOPTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXAOPTask.h; sourceTree = "<group>"; };
+		5636076F21468B2C00B10825 /* LXAOPTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXAOPTask.m; sourceTree = "<group>"; };
+		563607742146901400B10825 /* LXAOPTask+TaskTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LXAOPTask+TaskTest.h"; sourceTree = "<group>"; };
+		563607752146901400B10825 /* LXAOPTask+TaskTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LXAOPTask+TaskTest.m"; sourceTree = "<group>"; };
+		563607772146908200B10825 /* NextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		563607782146908200B10825 /* NextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		A869A54F56175C8125D6E1A8 /* Pods_LXAopTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXAopTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5636073621468A3A00B10825 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCBB6A9DD52EE057EC9EBFF2 /* Pods_LXAopTask.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5636074E21468A3C00B10825 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5636075921468A3C00B10825 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51415B2785E028FA8C381699 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E669FFF932F9F02364714EB /* Pods-LXAopTask.debug.xcconfig */,
+				4F7F8D6839938456F3F86BE8 /* Pods-LXAopTask.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5636073021468A3A00B10825 = {
+			isa = PBXGroup;
+			children = (
+				5636073B21468A3A00B10825 /* LXAopTask */,
+				5636075421468A3C00B10825 /* LXAopTaskTests */,
+				5636075F21468A3C00B10825 /* LXAopTaskUITests */,
+				5636073A21468A3A00B10825 /* Products */,
+				51415B2785E028FA8C381699 /* Pods */,
+				CCB5871BCE09D07AE95113FF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5636073A21468A3A00B10825 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5636073921468A3A00B10825 /* LXAopTask.app */,
+				5636075121468A3C00B10825 /* LXAopTaskTests.xctest */,
+				5636075C21468A3C00B10825 /* LXAopTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5636073B21468A3A00B10825 /* LXAopTask */ = {
+			isa = PBXGroup;
+			children = (
+				5636076E21468B2C00B10825 /* LXAOPTask.h */,
+				5636076F21468B2C00B10825 /* LXAOPTask.m */,
+				5636073C21468A3A00B10825 /* AppDelegate.h */,
+				5636073D21468A3A00B10825 /* AppDelegate.m */,
+				5636073F21468A3A00B10825 /* ViewController.h */,
+				5636074021468A3A00B10825 /* ViewController.m */,
+				563607772146908200B10825 /* NextViewController.h */,
+				563607782146908200B10825 /* NextViewController.m */,
+				563607742146901400B10825 /* LXAOPTask+TaskTest.h */,
+				563607752146901400B10825 /* LXAOPTask+TaskTest.m */,
+				5636074221468A3A00B10825 /* Main.storyboard */,
+				5636074521468A3C00B10825 /* Assets.xcassets */,
+				5636074721468A3C00B10825 /* LaunchScreen.storyboard */,
+				5636074A21468A3C00B10825 /* Info.plist */,
+				5636074B21468A3C00B10825 /* main.m */,
+			);
+			path = LXAopTask;
+			sourceTree = "<group>";
+		};
+		5636075421468A3C00B10825 /* LXAopTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				5636075521468A3C00B10825 /* LXAopTaskTests.m */,
+				5636075721468A3C00B10825 /* Info.plist */,
+			);
+			path = LXAopTaskTests;
+			sourceTree = "<group>";
+		};
+		5636075F21468A3C00B10825 /* LXAopTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5636076021468A3C00B10825 /* LXAopTaskUITests.m */,
+				5636076221468A3C00B10825 /* Info.plist */,
+			);
+			path = LXAopTaskUITests;
+			sourceTree = "<group>";
+		};
+		CCB5871BCE09D07AE95113FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A869A54F56175C8125D6E1A8 /* Pods_LXAopTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5636073821468A3A00B10825 /* LXAopTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5636076521468A3C00B10825 /* Build configuration list for PBXNativeTarget "LXAopTask" */;
+			buildPhases = (
+				9CD5C87B429DF04E74CF8BE4 /* [CP] Check Pods Manifest.lock */,
+				5636073521468A3A00B10825 /* Sources */,
+				5636073621468A3A00B10825 /* Frameworks */,
+				5636073721468A3A00B10825 /* Resources */,
+				F9B8830A3EECEB4BAE02C2FF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXAopTask;
+			productName = LXAopTask;
+			productReference = 5636073921468A3A00B10825 /* LXAopTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5636075021468A3C00B10825 /* LXAopTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5636076821468A3C00B10825 /* Build configuration list for PBXNativeTarget "LXAopTaskTests" */;
+			buildPhases = (
+				5636074D21468A3C00B10825 /* Sources */,
+				5636074E21468A3C00B10825 /* Frameworks */,
+				5636074F21468A3C00B10825 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5636075321468A3C00B10825 /* PBXTargetDependency */,
+			);
+			name = LXAopTaskTests;
+			productName = LXAopTaskTests;
+			productReference = 5636075121468A3C00B10825 /* LXAopTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5636075B21468A3C00B10825 /* LXAopTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5636076B21468A3C00B10825 /* Build configuration list for PBXNativeTarget "LXAopTaskUITests" */;
+			buildPhases = (
+				5636075821468A3C00B10825 /* Sources */,
+				5636075921468A3C00B10825 /* Frameworks */,
+				5636075A21468A3C00B10825 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5636075E21468A3C00B10825 /* PBXTargetDependency */,
+			);
+			name = LXAopTaskUITests;
+			productName = LXAopTaskUITests;
+			productReference = 5636075C21468A3C00B10825 /* LXAopTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5636073121468A3A00B10825 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Livesxu;
+				TargetAttributes = {
+					5636073821468A3A00B10825 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					5636075021468A3C00B10825 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 5636073821468A3A00B10825;
+					};
+					5636075B21468A3C00B10825 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 5636073821468A3A00B10825;
+					};
+				};
+			};
+			buildConfigurationList = 5636073421468A3A00B10825 /* Build configuration list for PBXProject "LXAopTask" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5636073021468A3A00B10825;
+			productRefGroup = 5636073A21468A3A00B10825 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5636073821468A3A00B10825 /* LXAopTask */,
+				5636075021468A3C00B10825 /* LXAopTaskTests */,
+				5636075B21468A3C00B10825 /* LXAopTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5636073721468A3A00B10825 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5636074921468A3C00B10825 /* LaunchScreen.storyboard in Resources */,
+				5636074621468A3C00B10825 /* Assets.xcassets in Resources */,
+				5636074421468A3A00B10825 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5636074F21468A3C00B10825 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5636075A21468A3C00B10825 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9CD5C87B429DF04E74CF8BE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LXAopTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9B8830A3EECEB4BAE02C2FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LXAopTask/Pods-LXAopTask-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Aspects/Aspects.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Aspects.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LXAopTask/Pods-LXAopTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5636073521468A3A00B10825 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5636074121468A3A00B10825 /* ViewController.m in Sources */,
+				563607792146908200B10825 /* NextViewController.m in Sources */,
+				5636074C21468A3C00B10825 /* main.m in Sources */,
+				5636073E21468A3A00B10825 /* AppDelegate.m in Sources */,
+				5636077021468B2C00B10825 /* LXAOPTask.m in Sources */,
+				563607762146901400B10825 /* LXAOPTask+TaskTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5636074D21468A3C00B10825 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5636075621468A3C00B10825 /* LXAopTaskTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5636075821468A3C00B10825 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5636076121468A3C00B10825 /* LXAopTaskUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5636075321468A3C00B10825 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5636073821468A3A00B10825 /* LXAopTask */;
+			targetProxy = 5636075221468A3C00B10825 /* PBXContainerItemProxy */;
+		};
+		5636075E21468A3C00B10825 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5636073821468A3A00B10825 /* LXAopTask */;
+			targetProxy = 5636075D21468A3C00B10825 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5636074221468A3A00B10825 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5636074321468A3A00B10825 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5636074721468A3C00B10825 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5636074821468A3C00B10825 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5636076321468A3C00B10825 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5636076421468A3C00B10825 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5636076621468A3C00B10825 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E669FFF932F9F02364714EB /* Pods-LXAopTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LXAopTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Livesxu.LXAopTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5636076721468A3C00B10825 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F7F8D6839938456F3F86BE8 /* Pods-LXAopTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LXAopTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Livesxu.LXAopTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5636076921468A3C00B10825 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LXAopTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Livesxu.LXAopTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXAopTask.app/LXAopTask";
+			};
+			name = Debug;
+		};
+		5636076A21468A3C00B10825 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LXAopTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Livesxu.LXAopTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXAopTask.app/LXAopTask";
+			};
+			name = Release;
+		};
+		5636076C21468A3C00B10825 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LXAopTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Livesxu.LXAopTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LXAopTask;
+			};
+			name = Debug;
+		};
+		5636076D21468A3C00B10825 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LXAopTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Livesxu.LXAopTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LXAopTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5636073421468A3A00B10825 /* Build configuration list for PBXProject "LXAopTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5636076321468A3C00B10825 /* Debug */,
+				5636076421468A3C00B10825 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5636076521468A3C00B10825 /* Build configuration list for PBXNativeTarget "LXAopTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5636076621468A3C00B10825 /* Debug */,
+				5636076721468A3C00B10825 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5636076821468A3C00B10825 /* Build configuration list for PBXNativeTarget "LXAopTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5636076921468A3C00B10825 /* Debug */,
+				5636076A21468A3C00B10825 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5636076B21468A3C00B10825 /* Build configuration list for PBXNativeTarget "LXAopTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5636076C21468A3C00B10825 /* Debug */,
+				5636076D21468A3C00B10825 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5636073121468A3A00B10825 /* Project object */;
+}
